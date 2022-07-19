@@ -15,6 +15,15 @@ body{
     display: flex;
 }
 
+
+
+.wrap{
+    flex-wrap: wrap;
+
+}
+
+
+
 .row{
     flex-direction: row;
 }
@@ -83,7 +92,7 @@ header{
 
 
 
-#jumbotron-container,#price-container,#enterprise,#partnership{
+#jumbotron-container,#price-container,#enterprise,#partnership,#Dropbox-business{
     width: 60vw;
     margin: 0 auto;
     margin-top: 50px;
@@ -167,4 +176,19 @@ h1{
 #partner-image{
     width: 100%;
     height: 100%;
+}
+
+
+.business-images{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+.cards{
+    width: calc(100% / 3  );
 }
