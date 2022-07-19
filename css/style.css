@@ -83,7 +83,7 @@ header{
 
 
 
-#jumbotron-container,#price-container,#enterprise{
+#jumbotron-container,#price-container,#enterprise,#partnership{
     width: 60vw;
     margin: 0 auto;
     margin-top: 50px;
@@ -161,4 +161,10 @@ h1{
 #table-row{
     width: 100%;
     border: 1.5px solid #d5d5d7;
+}
+
+
+#partner-image{
+    width: 100%;
+    height: 100%;
 }
