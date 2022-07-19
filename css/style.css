@@ -55,9 +55,7 @@ header{
     color: hsl(0deg 0% 33%);
     padding: 15px;
     position: fixed;
-    height: 80px;
-    line-height: 70px;
-    vertical-align: middle;
+    height: 70px;
     background-color: white;
     width: 100%;
 
@@ -71,6 +69,11 @@ header{
 }
 
 
+.nav-links{
+    align-items: center;
+    padding: 15px;
+}
+
 
 
 #jumbotron{
@@ -80,15 +83,30 @@ header{
 
 
 
-#jumbotron-container{
+#jumbotron-container,#price-container,#enterprise{
     width: 60vw;
     margin: 0 auto;
+    margin-top: 50px;
 
 
 }
 
+
+#jumbotron-button{
+     margin-top: 30px;
+
+}
+
+.image-container{
+    padding-top: 40px;
+
+}
 h1{
     align-self: center;
+    font-size: 3.5rem;
+    line-height: 50px;
+    font-weight: 600;
+    padding-top: 30px;
 }
 
 
@@ -102,13 +120,45 @@ h1{
 
 #jumbo-description{
     width: 30%;
+    padding-top: 50px;
     
 }
 
 
 
 #jumbo-image{
-    height: 100%;
-    width: 100%;
+    height: 110%;
+    width: 120%;
+    
+    
 }
     
+
+
+
+#business-plans{
+    margin-top: 80px;
+
+}
+
+.tables-column{
+    width: calc(100% / 3);
+    border: 1.5px solid #d5d5d7;
+    
+}
+
+.column-head{
+    border-bottom: 1.5px solid  #d5d5d7 ;
+    text-align: center;
+}
+
+.columns-padding > *{
+    padding-left:25px;
+    padding-top: 15px;
+}
+
+
+#table-row{
+    width: 100%;
+    border: 1.5px solid #d5d5d7;
+}
