@@ -192,3 +192,93 @@ h1{
 .cards{
     width: calc(100% / 3  );
 }
+
+
+
+.blocks{
+    background-color:white;
+    width: calc(100% / 3);
+    height: 30vw;
+}
+
+
+
+
+.w-h{
+    
+    height: 15vw;
+    width: calc(100% / 2);
+    line-height: 15vw;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+#a{
+    background-color: #a2d39b;
+}
+
+
+#b{
+    background-color: #61082b;
+}
+
+#c{
+    background-color: #0093ce;
+}
+
+#d{
+    background-color: #ff1c1c;
+}
+
+#e{
+    background-color: #d5001f;
+}
+
+#f{
+    background-color: #b4d0e7;
+}
+
+#g{
+    background-color: #0d2481;
+}
+
+#h{
+    background-color: #ffd830;
+}
+
+.img-w-h{
+    width: 50%;
+    height: 50%;
+    line-height: 15vw;
+    vertical-align: middle;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(337deg) brightness(104%) contrast(102%);
+}
+
+#c-h{
+    height: 15%;
+    
+}
+
+#hr-block{
+    width: 3vw;
+    height: 1px;
+    background-color: #d5001f;
+    border: none;
+  
+}
+
+#Desgnit{
+    width: 70%;
+    height: 70%;
+}
+
+.padding-element> p,div{
+    padding-top: 30px;
+
+}
+
+
+.padding-element> p,hr{
+    margin-left:45px ;
+}
