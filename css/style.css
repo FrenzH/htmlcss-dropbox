@@ -261,9 +261,9 @@ h1{
 }
 
 #hr-block{
-    width: 3vw;
-    height: 1px;
-    background-color: #d5001f;
+    width: 7vw;
+    height: 2px;
+    background-color: #e0e0e2;
     border: none;
   
 }
@@ -273,7 +273,12 @@ h1{
     height: 70%;
 }
 
-.padding-element> p,div{
+
+.padding-element{
+    background-color: #f5f5f5;
+}
+
+.padding-element> div, p{
     padding-top: 30px;
 
 }
@@ -281,4 +286,21 @@ h1{
 
 .padding-element> p,hr{
     margin-left:45px ;
+    margin-right: 30px;
+}
+
+
+#Free-Tryal{
+    background-color:#b4d0e7 ;
+    align-items: center;
+    padding: 85px 0px;
+    gap: 150px;
+}
+
+
+
+#h2-tryal{
+    color: #61082b;
+    font-size: 2rem;
+    
 }
