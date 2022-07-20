@@ -92,10 +92,11 @@ header{
 
 
 
-#jumbotron-container,#price-container,#enterprise,#partnership,#Dropbox-business,#drop-box-teams{
+#jumbotron-container,#price-container,#enterprise,#partnership,#Dropbox-business,#drop-box-teams,#faq,.footer-s{
     width: 60vw;
     margin: 0 auto;
     margin-top: 50px;
+    
 
 
 }
@@ -263,7 +264,7 @@ h1{
 #hr-block{
     width: 7vw;
     height: 2px;
-    background-color: #e0e0e2;
+    background-color: #717173;
     border: none;
   
 }
@@ -303,4 +304,67 @@ h1{
     color: #61082b;
     font-size: 2rem;
     
+}
+
+.hr-faq{
+    width: 100%;
+    border-style: none;
+    background-color:  #717173;;
+    height: 1px;
+    border: none;
+    margin-left: 30px;
+  }
+
+#ul-faq, #ul-faq> li{
+     padding: 30px;
+    list-style-type: none;
+
+}
+
+#h2-faq{
+    padding: 30px 60px;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.h2-footer{
+    font-size: 1.5rem;
+    padding: 15px 0px;
+    
+
+}
+
+a{
+    text-decoration: none;
+
+}
+
+
+.footer-container{
+    margin: 30px;
+}
+
+.footer-container> a{
+    padding: 15px 0px;
+    font-size: 0.8rem;
+    color: white;
+}
+
+#hr-footer{
+    width: 7vw;
+    height: 1px;
+    border: none;
+    margin-top: 40px;
+    
+    background-color: white;
+}
+
+
+.footer-language{
+    height: 100px;
+    background-color: black;
 }
