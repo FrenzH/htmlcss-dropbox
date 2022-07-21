@@ -11,7 +11,7 @@
     <header class="flex row space-between">
         <nav class="flex row">
             <img src="img/logo-small.png" alt="logo">
-            <div id="header-utilities" class="flex">
+            <div  class="flex header-utilities">
                 <a href="">Perchè Dropbox</a>
                 <a href="">Funzioni</a>
                 <a href="">Piani e Prezzi</a>
@@ -19,11 +19,11 @@
 
         </nav>
 
-        <nav class="flex row">
+        <nav class="flex row header-utilities">
             <a class="nav-links" href="">Supporto</a>
             <a class="nav-links" href="">Contatta l'ufficio vendite</a>
             <a class="nav-links" href="">Accedi</a>
-            <button class="button">Inizia</button>
+            <input type="button" class="button" value="Inizia"> 
         </nav>
     </header>
     <main>
@@ -32,8 +32,9 @@
               <h1>Tutto ciò che ti serve per il lavoro, in unico posto</h1>
               <div class="image-container flex row">
                    <div id="jumbo-description">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ducimus sit id, possimus eum, repudiandae itaque, accusamus necessitatibus aliquid cumque nobis! Nesciunt consequatur dicta nobis minima culpa alias eius aliquam?</p>
+                    <p>Finalmente tutti i tuoi strumenti,contenuti e collaboratori sono accessibili dallo stesso posto.Dropbox Business è più di uno spazio di archiviazione sicuro:è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
                     <button id="jumbotron-button" class="button">Inizia la tua prova gratuita</button>
+                    <span>Annulla in qualsiasi momento</span>
 
                    </div>
                    <div id="jumbo-image-container">
@@ -53,7 +54,7 @@
         </section>
         <section id="business-plans">
             <div id="price-container" class="flex column">
-                <h2>Trova il piano di business che fa per te</h2>
+                <h2 id="business-h2">Trova il piano di business che fa per te</h2>
                 <div>
                     <input id="monthly-payment" type="radio" value="">
                     <label for="monthly-payment">Fatturazione mensile</label>
@@ -68,10 +69,10 @@
                             Singolo
 
                         </div>
-                        <div class="columns-padding">
+                        <div class=" column flex columns-padding">
                             <h3>Professional</h3>
-                            <p>&euro;12</p>
-                            <p>/mese</p>
+                            <span>&euro;12</span>
+                            <span>/mese</span>
                             <ul>
                                 <li>1 utente</li>
                                 <li>5 TB di spazio di archiviazione sicuro</li>
@@ -80,12 +81,12 @@
 
 
                             </ul>
-                            <div>
-                                <button class="button">Prova gratis per 30 giorni</button>
+                            
+                            <input type="button" class="button" value="Prova gratis per 30 giorni">
 
-                            </div>
+                            <hr class="hr-business">
                            
-                            <p>oppure <a href="">acquista ora</a></p>
+                            <span>oppure <a href="">acquista ora</a></span>
                             <h4>Punti Salienti del piano</h4>
                             <ul>
                                 <li>Invia file fino a 100 GB con Dropbox Transfert</li>
@@ -102,6 +103,19 @@
                     </div>
                     <div class="tables-column column flex">
                         <div class="column-head">Team</div>
+                        <div class=" column flex columns-padding">
+                            <h3>Advanced</h3>
+                            <span>&euro;18.00</span>
+                            <span>/utente/mese</span>
+                            <ul>
+                                <li>3 o più utenti</li>
+                                <li>Tutto lo spazio di cui ha bisogno il tuo team</li>
+                                <li>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</li>
+                            </ul>
+                            <input type="button" class="button" value="Prova gratis per 30 giorni">
+
+                        </div>
+                          
 
 
                     </div>
@@ -124,6 +138,7 @@
                             </div>
                             <div>
                                 <button class="button">Contatta l'ufficio vendite</button>
+                                <span>oppure <a href="">acquista ora</a></span>
 
 
                             </div>
